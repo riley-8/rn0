@@ -1,0 +1,97 @@
+*{padding: 0; margin: 0;}
+.container{
+    height: 100vh;
+    width: 100vw;
+    color: #444;
+    background: #ffe7e3;
+    text-align: center;
+}
+.love{
+    padding-top: 25%;
+}
+h2{
+    font-size: 72px;
+    margin-bottom: 30px;
+}
+.love span{
+    color: #fc9786;
+}
+.love a{
+    text-decoration: none;
+    background: #eee;
+    padding: 24px;
+    margin: 5px 20px;
+    border:6px solid #ddd;
+    border-radius: 25px;
+}
+.but span{color: #008a8a;}
+.but a{
+    text-decoration: none;
+    background: #eee;
+    padding: 24px;
+    margin: 5px 20px;
+    border:6px solid #ddd;
+    border-radius: 25px;
+}
+.but{
+    padding-top: 25%;
+}
+.and span{color: #6d4c41;}
+.and a{
+    text-decoration: none;
+    background: #eee;
+    padding: 24px;
+    margin: 5px 20px;
+    border:6px solid #ddd;
+    border-radius: 25px;
+}
+.and{
+    padding-top: 25%;
+}
+.look span{color: #D97742;}
+.look a{
+    text-decoration: none;
+    background: #eee;
+    padding: 24px;
+    margin: 5px 20px;
+    border:6px solid #ddd;
+    border-radius: 25px;
+}
+.look{
+    padding-top: 25%;
+}
+.buut{
+    padding-top: 25%;
+}
+.buut span{color: #4C72BE;}
+.buut a{
+    text-decoration: none;
+    background: #eee;
+    padding: 24px;
+    margin: 5px 20px;
+    border:6px solid #ddd;
+    border-radius: 25px;
+}
+.because span{color: red;}
+.because a{
+    text-decoration: none;
+    background: #eee;
+    padding: 24px;
+    margin: 5px 20px;
+    border:6px solid #ddd;
+    border-radius: 25px;
+}
+#but{color:#fa8c70;}
+#and{color:#108181;}
+#look{color:#6d4c41;}
+#but{color:#D97742;}
+#because{color:#4C72BE;}
+#fmty{color: red;}
+img{height: 45px; width: 45px;
+    animation: heart 4s linear infinite;
+}
+@keyframes heart{
+    0%{transform: scale(.5);}
+    50%{transform: scale(1.5);}
+    100%{transform: scale(.5);}
+}
